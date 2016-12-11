@@ -33,7 +33,11 @@ def sms():
     elif option=='5':
         sent="Name: Otter Sports Center \nAddress: 2050 Inter-Garrison Rd, Marina, CA 93933 \nHours: 6 AM to 12 Midnight \nFact: The gym has recieved several different upgrades. \n*Reply 'menu' to go to the main menu*"
     elif option=='6':
-        sent="Dr Tao \nEducation: Ph.D. in Computer Engineering, University of California at Irvine.\nThe best professor in Computer Architecture\n*Reply 'menu' to go to the main menu*"
+        sent="Dr. Tao \nEducation: Ph.D. in Computer Engineering, University of California at Irvine.\nThe best professor in Computer Architecture\n*Reply 'menu' to go to the main menu*"
+    elif option=='otter' or option=='Otter':
+        sent="Nothing hotter than an otter!"
+    elif option=='whats my number' or option=='number' or option=='my number':
+        sent='Your phone number is: {}'.format(number)
     else:
         sent=menu
     #response
