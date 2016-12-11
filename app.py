@@ -23,17 +23,17 @@ def sms():
     ############################
     if option=='1':
         #msg.media("")
-        sent="Name: Joel & Dena Gambord Business & Information Technology Building \n Address: 3052 Divarty St, Marina CA 93933 \n Hours: 8 AM to 10 PM \n Fact: Did you know the official naming took place on February 25, 2016. \n "
+        sent="Name: Joel & Dena Gambord Business & Information Technology Building \nAddress: 3052 Divarty St, Marina CA 93933 \nHours: 8 AM to 10 PM \nFact: Did you know the official naming took place on February 25, 2016. \n"
     elif option=='2':
-        sent="Name: Tanimura & Antle Family Memorial Library \n Address: 3054 Divarty St, Seaside, CA 93955 \n Hours: 8 AM to 12 AM \n Fact: Library closes at 4 in the morning during finals. \n "
+        sent="Name: Tanimura & Antle Family Memorial Library \nAddress: 3054 Divarty St, Seaside, CA 93955 \nHours: 8 AM to 12 AM \nFact: Library closes at 4 in the morning during finals. \n"
     elif option=='3':
-        sent="Name: Dining Commons \n Address: 3112 Inter-Garrison Rd, Seaside, CA 93955 \n Hours: 7 AM to 2 PM, 5 PM to 8 PM \n Fact: From 11 AM-12 PM lunch is $4. \n "
+        sent="Name: Dining Commons \nAddress: 3112 Inter-Garrison Rd, Seaside, CA 93955 \nHours: 7 AM to 2 PM, 5 PM to 8 PM \nFact: From 11 AM-12 PM lunch is $4. \n"
     elif option=='4':
-        sent="Name: Student Center \n Address: Alumni & Visitors Center, 5108 Fourth Ave, Marina, CA 93933 \n Hours: 8 AM to 5 PM \n Fact: You can rent out equipment with a drivers license. \n "
+        sent="Name: Student Center \nAddress: Alumni & Visitors Center, 5108 Fourth Ave, Marina, CA 93933 \nHours: 8 AM to 5 PM \nFact: You can rent out equipment with a drivers license. \n"
     elif option=='5':
-        sent="Name: Otter Sports Center \n Address: 2050 Inter-Garrison Rd, Marina, CA 93933 \n Hours: 6 AM to 12 Midnight \n Fact: The gym has recieved several different upgrades. \n "
+        sent="Name: Otter Sports Center \nAddress: 2050 Inter-Garrison Rd, Marina, CA 93933 \nHours: 6 AM to 12 Midnight \nFact: The gym has recieved several different upgrades. \n "
     elif option=='6':
-        sent="Dr Tao \n Education: Ph.D. in Computer Engineering, University of California at Irvine.\n The best professor in Computer Architecture"
+        sent="Dr Tao \nEducation: Ph.D. in Computer Engineering, University of California at Irvine.\nThe best professor in Computer Architecture"
     else:
         sent=menu
     #response
