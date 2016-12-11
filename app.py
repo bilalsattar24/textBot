@@ -12,7 +12,7 @@ def sms():
     message_body = request.form['Body']
 
     #you can change this
-    menu = 'Welcome to CSUMB Text Bot Menu\n1. BIT\n2. Library\n3. Dining Commons\n4. Student Center\n5. Gym\n6. Dr. Tao\n'
+    menu = 'Welcome to CSUMB Text Bot Menu\n1. BIT\n2. Library\n3. Dining Commons\n4. Student Center\n5. Gym\n6. Dr. Tao\n*Reply with 1-6 for more info*'
     resp = twiml.Response()
     option = message_body
     #dont touch
