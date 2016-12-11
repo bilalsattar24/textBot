@@ -22,6 +22,7 @@ def sms():
     #resp.message('Hello {}, you said: {}'.format(number, message_body))
     ############################
     if option=='1':
+        #msg.media("")
         sent="Bit builiding is open from 8AM to 8PM\n"
     elif option=='2':
         sent="Library is open from 8AM to 10PM"
@@ -34,7 +35,8 @@ def sms():
     else:
         sent=menu
     #response
-    resp.message(menu)
+    
+    resp.message(sent)
 
     
     
