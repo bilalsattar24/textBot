@@ -23,17 +23,17 @@ def sms():
     ############################
     if option=='1':
         #msg.media("")
-        sent="Name: Joel & Dena Gambord Business & Information Technology Building \nAddress: 3052 Divarty St, Marina CA 93933 \nHours: 8 AM to 10 PM \nFact: Did you know the official naming took place on February 25, 2016.\nReply 'menu' to go to the main menu"
+        sent="Name: Joel & Dena Gambord Business & Information Technology Building \nAddress: 3052 Divarty St, Marina CA 93933 \nHours: 8 AM to 10 PM \nFact: Did you know the official naming took place on February 25, 2016.\n*Reply 'menu' to go to the main menu*"
     elif option=='2':
-        sent="Name: Tanimura & Antle Family Memorial Library \nAddress: 3054 Divarty St, Seaside, CA 93955 \nHours: 8 AM to 12 AM \nFact: Library closes at 4 in the morning during finals. \nReply 'menu' to go to the main menu"
+        sent="Name: Tanimura & Antle Family Memorial Library \nAddress: 3054 Divarty St, Seaside, CA 93955 \nHours: 8 AM to 12 AM \nFact: Library closes at 4 in the morning during finals. \n*Reply 'menu' to go to the main menu*"
     elif option=='3':
-        sent="Name: Dining Commons \nAddress: 3112 Inter-Garrison Rd, Seaside, CA 93955 \nHours: 7 AM to 2 PM, 5 PM to 8 PM \nFact: From 11 AM-12 PM lunch is $4. \nReply 'menu' to go to the main menu"
+        sent="Name: Dining Commons \nAddress: 3112 Inter-Garrison Rd, Seaside, CA 93955 \nHours: 7 AM to 2 PM, 5 PM to 8 PM \nFact: From 11 AM-12 PM lunch is $4. \n*Reply 'menu' to go to the main menu*"
     elif option=='4':
-        sent="Name: Student Center \nAddress: Alumni & Visitors Center, 5108 Fourth Ave, Marina, CA 93933 \nHours: 8 AM to 5 PM \nFact: You can rent out equipment with a drivers license. \nReply 'menu' to go to the main menu"
+        sent="Name: Student Center \nAddress: Alumni & Visitors Center, 5108 Fourth Ave, Marina, CA 93933 \nHours: 8 AM to 5 PM \nFact: You can rent out equipment with a drivers license. \n*Reply 'menu' to go to the main menu*"
     elif option=='5':
-        sent="Name: Otter Sports Center \nAddress: 2050 Inter-Garrison Rd, Marina, CA 93933 \nHours: 6 AM to 12 Midnight \nFact: The gym has recieved several different upgrades. \nReply 'menu' to go to the main menu"
+        sent="Name: Otter Sports Center \nAddress: 2050 Inter-Garrison Rd, Marina, CA 93933 \nHours: 6 AM to 12 Midnight \nFact: The gym has recieved several different upgrades. \n*Reply 'menu' to go to the main menu*"
     elif option=='6':
-        sent="Dr Tao \nEducation: Ph.D. in Computer Engineering, University of California at Irvine.\nThe best professor in Computer Architecture\nReply 'menu' to go to the main menu"
+        sent="Dr Tao \nEducation: Ph.D. in Computer Engineering, University of California at Irvine.\nThe best professor in Computer Architecture\n*Reply 'menu' to go to the main menu*"
     else:
         sent=menu
     #response
