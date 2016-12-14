@@ -12,7 +12,7 @@ def sms():
     message_body = request.form['Body']
 
     #you can change this
-    menu = 'Welcome to CSUMB Text Bot Menu\n1. BIT\n2. Library\n3. Dining Commons\n4. Student Center\n5. Gym\n6. Dr. Tao\n*Reply with 1-6 for more info*'
+    menu = 'Welcome to CSUMB Text Bot Menu\n1. BIT\n2. Library\n3. Dining Commons\n4. Student Center\n5. Gym\n6. Dr. Tao\n7. Champan Science Center\n8. North Quad\n *Reply with 1-6 for more info*'
     resp = twiml.Response()
     option = message_body
     #dont touch
@@ -36,8 +36,14 @@ def sms():
         sent="Dr. Tao \nEducation: Ph.D. in Computer Engineering, University of California at Irvine.\nThe best professor in Computer Architecture\n*Reply 'menu' to go to the main menu*"
     elif option=='otter' or option=='Otter':
         sent="Nothing hotter than an otter!"
+    elif option=='7':
+        sent="Name: Chapman Science Academic Center\nAddress: 6133 Fifth Avenue Seaside, CA 93955 \nHours: 7 AM to 10 PM \nFact: Inspired by the Monterey Bay Aquarium, the architect installed a system that sprays salt water in the air to make the building smell like the ocean. \n*Reply 'menu' to go to the main menu*"
+    elif option=='8':
+        sent="Name: North Quad Dorms \nAddress: 3116 Inter-Garrison Rd Seaside, CA 93955 \nHours: 24 Hrs/Day \nFact: Students in their second year at CSUMB are eligible for the suites \n*Reply 'menu' to go to the main menu*"
     elif option=='whats my number' or option=='number' or option=='my number':
         sent='Your phone number is: {}'.format(number)
+    elif option=='CSUMB' or option=='Csumb' or option=='csumb':
+        sent="CSUMB Campus Number: 831582300"
     else:
         sent=menu
     #response
